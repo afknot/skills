@@ -1,5 +1,5 @@
 ---
-name: twinzies
+name: "twinzies"
 description: Build, reuse and keep improving a library of research-grounded "digital twin" user personas, drawn from public online discussion (Reddit, forums, reviews, blogs, pasted/exported threads from Facebook, X, Threads) and the builder's own feedback data. Use the twins to run usability walkthroughs, accessibility checks and lightweight user research on any app, site, codebase or design, and pair them with real-user qualitative research (screeners, in-product prompts, think-aloud scripts). Use whenever the user mentions twinzies, digital twins, synthetic users, forum-based personas, simulated usability tests, "test my app with realistic users", or wants feedback on functionality, language and content, visual design, UI, or hierarchy from the point of view of a specific community, even if they never say "digital twin". Also use for misuse and abuse-case testing (twins that use an app carelessly, unexpectedly or maliciously) to harden a product.
 ---
 
