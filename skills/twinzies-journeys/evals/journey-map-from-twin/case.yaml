@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: journey-map-from-twin
+expected_outcome: |
+  An evidence-labelled journey map HTML and JSON, plus Miro-ready sticky exports.

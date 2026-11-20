@@ -1,0 +1,559 @@
+[
+ {
+  "id": "E01",
+  "type": "public",
+  "source": "https://www.avnirvana.com/threads/cataloging-your-dvd-blu-ray-4k-uhd-collection.14607/post-112001",
+  "community": "AVNirvana forum",
+  "date": "undated",
+  "point": "Phone-scanning apps compared; subscription pricing confusing; some lack Android; scanning in stores prevents duplicates; spreadsheet with a relative reading titles; manual entry too much work",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "low-vision-downsizing-collector"
+  ]
+ },
+ {
+  "id": "E02",
+  "type": "public",
+  "source": "https://forum.dvdtalk.com/dvd-talk/574554-catalog-dvd-cataloging-software-5.html",
+  "community": "DVD Talk forum",
+  "date": "older",
+  "point": "Poll: DVD Profiler most used; confusion showing disc-release year vs film year; trial-limit confusion; 10,000+ titles by hand impractical; wants price/store/date, sharing, export, batch scan",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "edition-and-spine-completionist",
+   "low-vision-downsizing-collector"
+  ]
+ },
+ {
+  "id": "E03",
+  "type": "public",
+  "source": "https://www.vinylmeplease.com/magazine/i-tried-out-5-vinyl-collection-management-apps/",
+  "community": "Vinyl app review blog",
+  "date": "approx. 2023",
+  "point": "Apps cannot pick edition or sub-collections; scan returns wrong reissue with no switch; UI matters in long logging sessions",
+  "twins": [
+   "pressing-obsessed-vinyl-digger"
+  ]
+ },
+ {
+  "id": "E04",
+  "type": "public",
+  "source": "https://forums.macrumors.com/threads/best-app-for-cataloging-vinyls.2220165",
+  "community": "MacRumors forum",
+  "date": "older",
+  "point": "Most records lack barcodes; spreadsheets cannot hold pressing/condition; CLZ moved to subscription; Discogs has no Mac app",
+  "twins": [
+   "pressing-obsessed-vinyl-digger"
+  ]
+ },
+ {
+  "id": "E05",
+  "type": "public",
+  "source": "https://forums.plex.tv/t/metadata-fields-needed-for-physical-media/903977",
+  "community": "Plex forum",
+  "date": "approx. 2024",
+  "point": "Wants medium type, release date/country, label, catalog/spine number, sortable and filterable, for upgrade decisions",
+  "twins": [
+   "edition-and-spine-completionist",
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "E06",
+  "type": "public",
+  "source": "https://forum.jellyfin.org/t-catalogue-other-media",
+  "community": "Jellyfin forum",
+  "date": "approx. 2024",
+  "point": "Wants owned physical titles shown as unplayable; placeholder \".disc\" file workaround; few clients show format",
+  "twins": [
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "E07",
+  "type": "public",
+  "source": "https://forums.plex.tv/t/manage-real-bd-library/879973",
+  "community": "Plex forum",
+  "date": "approx. 2024",
+  "point": "About 120 Blu-rays tracked in separate tool; \"dumb\" entries as checklist; storage location and lending raised",
+  "twins": [
+   "rip-and-shelf-homelabber",
+   "barcode-blitz-cataloger"
+  ]
+ },
+ {
+  "id": "E08",
+  "type": "public",
+  "source": "https://reddit.sudovanilla.org/r/discogs/hot",
+  "community": "r/discogs (mirror)",
+  "date": "approx. Jan 2025",
+  "point": "Switching release version resets date added; no sign of already-scanned items after interruption; iOS scanner black screen; reissue worries; missing RSD titles",
+  "twins": [
+   "pressing-obsessed-vinyl-digger"
+  ]
+ },
+ {
+  "id": "E09",
+  "type": "public",
+  "source": "https://criterionforum.org/forum/viewtopic.php?p=322049",
+  "community": "Criterion Forum",
+  "date": "older",
+  "point": "Mac and Windows tools listed; DVD AF database going stale; Android scanner apps disappearing; wants hands-free scanning, import/export, wishlist prices; photo records for insurance. Spine numbers not discussed",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "low-vision-downsizing-collector"
+  ]
+ },
+ {
+  "id": "E10",
+  "type": "public",
+  "source": "https://www.htguide.com/forum/primetime-a-v/red-carpet-welcome-and-general-topics/36710-what-are-you-using-to-keep-track-of-your-movies-music-etcetera?p=670510",
+  "community": "HTGuide forum",
+  "date": "older",
+  "point": "Homemade database only works if kept current; scanning historically unreliable; unwanted auto genre folders; music metadata thinner; a tool awkward in stores",
+  "twins": [
+   "barcode-blitz-cataloger"
+  ]
+ },
+ {
+  "id": "E11",
+  "type": "public",
+  "source": "https://www.giantbomb.com/forums/general-discussion-30/backlog-tracker-1789632/",
+  "community": "Giant Bomb forums",
+  "date": "older",
+  "point": "Shelves in Grouvee/Darkadia; Backloggery needs manual upkeep; wants import, custom shelves, filters",
+  "twins": [
+   "regional-variant-game-hunter"
+  ]
+ },
+ {
+  "id": "E12",
+  "type": "public",
+  "source": "https://forums.insertcredit.com/t/game-tracking-apps/2546?page=2",
+  "community": "InsertCredit forum",
+  "date": "approx. 2024",
+  "point": "US-rarity pricing distorts UK/JP values; Backloggd weak on physical; wants add-once multi-platform, how-owned, regional value",
+  "twins": [
+   "regional-variant-game-hunter"
+  ]
+ },
+ {
+  "id": "E13",
+  "type": "public",
+  "source": "https://www.neogaf.com/threads/game-tracking.1684281/latest",
+  "community": "NeoGAF",
+  "date": "approx. 2025",
+  "point": "Duplicates across stores; ownership type (physical/digital); nagging apps feel like chores; durable categories",
+  "twins": [
+   "regional-variant-game-hunter"
+  ]
+ },
+ {
+  "id": "E14",
+  "type": "public",
+  "source": "https://club.clz.com/t/font-size/19458",
+  "community": "CLZ support club",
+  "date": "undated",
+  "point": "Elderly user cannot enlarge text in add/edit card; staff suggest OS scaling or browser version",
+  "twins": [
+   "low-vision-downsizing-collector"
+  ]
+ },
+ {
+  "id": "E15",
+  "type": "public",
+  "source": "https://clz.com/movies/desktop/whatsnew/2018/05/08/v18-1-full-support-for-larger-text-size-and-high-resolution-screens",
+  "community": "CLZ release notes",
+  "date": "2018",
+  "point": "Larger OS text scaling broke layouts and blurred text until app became DPI aware",
+  "twins": [
+   "low-vision-downsizing-collector"
+  ]
+ },
+ {
+  "id": "E16",
+  "type": "public",
+  "source": "https://forum.jellyfin.org/t-totality-for-those-obsessed-with-perfect-libraries",
+  "community": "Jellyfin forum",
+  "date": "approx. 2024",
+  "point": "Owned vs missing, quality/upgrade scoring, rule-based organization, XML export, wishlist",
+  "twins": [
+   "edition-and-spine-completionist",
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "E17",
+  "type": "public",
+  "source": "https://forum.blu-ray.com/showthread.php?p=8913066",
+  "community": "Blu-ray.com forum",
+  "date": "2014",
+  "point": "USB scanner batch workflow: save codes in batches of about 50, then bulk import",
+  "twins": [
+   "barcode-blitz-cataloger"
+  ]
+ },
+ {
+  "id": "E18",
+  "type": "public",
+  "source": "https://forum.blu-ray.com/showthread.php?p=2392158",
+  "community": "Blu-ray.com forum",
+  "date": "older",
+  "point": "Spreadsheets since the 1990s; about 6% of UPCs not found; DVD Profiler stores back covers and prints; manual entry slow",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "edition-and-spine-completionist"
+  ]
+ },
+ {
+  "id": "E19",
+  "type": "public",
+  "source": "https://nyc1.lr.ggtyler.dev/r/vinyl/wiki/index/records/discogsguide",
+  "community": "r/vinyl wiki (mirror)",
+  "date": "undated",
+  "point": "Match pressing by label, catalog number, matrix; grade record and sleeve; barcodes unreliable for old records",
+  "twins": [
+   "pressing-obsessed-vinyl-digger"
+  ]
+ },
+ {
+  "id": "E20",
+  "type": "public",
+  "source": "https://community.naimaudio.com/t/discogs-tips-tricks-hacks-and-help/43421",
+  "community": "Naim Audio community",
+  "date": "undated",
+  "point": "Barcode scan gives list not pressing; app awkward and unreliable at a record fair; grade while adding; use website",
+  "twins": [
+   "pressing-obsessed-vinyl-digger",
+   "low-vision-downsizing-collector"
+  ]
+ },
+ {
+  "id": "E21",
+  "type": "public",
+  "source": "https://collectorsedition.org/forums/showthread.php?p=20451",
+  "community": "Collectors Edition forums",
+  "date": "older",
+  "point": "Region checklist (NTSC/NTSC-J/PAL); cover finishes and double-packs as variants; wanted list",
+  "twins": [
+   "regional-variant-game-hunter"
+  ]
+ },
+ {
+  "id": "E22",
+  "type": "public",
+  "source": "https://feedback.launchbox-app.com/p/ability-to-add-regions-and-game-codes-in-database",
+  "community": "LaunchBox feedback board",
+  "date": "Apr-May 2025",
+  "point": "Request for region, localized title, disc, variant, language, game-code fields; today people use filenames or spreadsheets",
+  "twins": [
+   "regional-variant-game-hunter"
+  ]
+ },
+ {
+  "id": "E23",
+  "type": "public",
+  "source": "https://forum.makemkv.com/forum/viewtopic.php?p=148161",
+  "community": "MakeMKV forum",
+  "date": "older",
+  "point": "About 5,000 discs ripped over 13 years; boxed discs hard to find; drive capacity",
+  "twins": [
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "E24",
+  "type": "public",
+  "source": "https://www.nintendolife.com/forums/general_discussion/game_collectors_forum",
+  "community": "Nintendo Life forums",
+  "date": "older",
+  "point": "PriceCharting and scanning apps as catalogs; value anxiety; sealed copies feel too valuable to open; scalpers",
+  "twins": [
+   "regional-variant-game-hunter"
+  ]
+ },
+ {
+  "id": "E25",
+  "type": "public",
+  "source": "https://www.soundandvision.com/content/culling-software-herd",
+  "community": "Sound & Vision magazine",
+  "date": "approx. 2020",
+  "point": "Collector with about 2,000 discs and 1,000 LPs culled before a costly move; logged what remained",
+  "twins": [
+   "low-vision-downsizing-collector"
+  ]
+ },
+ {
+  "id": "O-F1",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "Every action handler is undefined: scan, Commit and Purge all do nothing",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "edition-and-spine-completionist",
+   "low-vision-downsizing-collector",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "O-F2",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "Scan control is a 20x17 emoji span: no keyboard access, no name, tiny target",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "low-vision-downsizing-collector"
+  ]
+ },
+ {
+  "id": "O-F3",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "'Purge all' is an unguarded destructive action styled as plain red text",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "edition-and-spine-completionist",
+   "low-vision-downsizing-collector",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "O-F4",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "Emphasis is inverted: the destructive action is loudest, the primary action looks disabled",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "edition-and-spine-completionist",
+   "low-vision-downsizing-collector",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "O-F5",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "The only instruction line is #bbb at 11px (1.92:1 contrast)",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "edition-and-spine-completionist",
+   "low-vision-downsizing-collector",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "O-F6",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "Internal jargon: 'Ingest queue', 'reconcile metadata', 'Commit', 'Fmt', 'SKU', 'BD'",
+  "twins": [
+   "low-vision-downsizing-collector",
+   "barcode-blitz-cataloger",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "edition-and-spine-completionist"
+  ]
+ },
+ {
+  "id": "O-F7",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "No way to add, import or batch-enter titles",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "edition-and-spine-completionist",
+   "low-vision-downsizing-collector",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "O-F8",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "Record has no release-level fields: edition, label, spine/catalog no., pressing, region, variant",
+  "twins": [
+   "edition-and-spine-completionist",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "O-F9",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "Nothing links a disc to where it is or whether it is ripped or lent",
+  "twins": [
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "O-F10",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "No purchase price, store, date or condition grade",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "pressing-obsessed-vinyl-digger",
+   "low-vision-downsizing-collector"
+  ]
+ },
+ {
+  "id": "O-F11",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "No sorting, filtering or owned/missing views",
+  "twins": [
+   "edition-and-spine-completionist",
+   "rip-and-shelf-homelabber",
+   "regional-variant-game-hunter"
+  ]
+ },
+ {
+  "id": "O-F12",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "No export, print or inventory view",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "low-vision-downsizing-collector",
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "O-F13",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "In-store 'do I already own this?' path is unclear",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter"
+  ]
+ },
+ {
+  "id": "O-F14",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "Search is placeholder-only; the field has no visible label and unclear scope",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "low-vision-downsizing-collector"
+  ]
+ },
+ {
+  "id": "O-F15",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "'Mark as sealed' is an unstyled 13px checkbox with unclear scope",
+  "twins": [
+   "regional-variant-game-hunter",
+   "low-vision-downsizing-collector",
+   "pressing-obsessed-vinyl-digger",
+   "barcode-blitz-cataloger"
+  ]
+ },
+ {
+  "id": "O-F16",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "Commit button is 23px tall, 1.36:1 against the page, with no feedback or states",
+  "twins": [
+   "low-vision-downsizing-collector",
+   "barcode-blitz-cataloger",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "rip-and-shelf-homelabber"
+  ]
+ },
+ {
+  "id": "O-F17",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "Document structure: no lang, no landmarks, a 14px h1, no section headings",
+  "twins": [
+   "low-vision-downsizing-collector",
+   "barcode-blitz-cataloger",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "rip-and-shelf-homelabber",
+   "edition-and-spine-completionist"
+  ]
+ },
+ {
+  "id": "O-F18",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "No viewport meta tag: the page will render at desktop width on phones",
+  "twins": [
+   "barcode-blitz-cataloger",
+   "pressing-obsessed-vinyl-digger",
+   "regional-variant-game-hunter",
+   "low-vision-downsizing-collector"
+  ]
+ },
+ {
+  "id": "O-F19",
+  "type": "observed",
+  "source": "examples/02-evaluate-a-prototype/findings.json",
+  "community": "Shelf prototype",
+  "date": "2026-01-01",
+  "point": "Inconsistent type scale and an unstructured table",
+  "twins": [
+   "edition-and-spine-completionist",
+   "rip-and-shelf-homelabber",
+   "barcode-blitz-cataloger",
+   "low-vision-downsizing-collector"
+  ]
+ }
+]

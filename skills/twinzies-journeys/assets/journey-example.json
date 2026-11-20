@@ -1,0 +1,18 @@
+{
+  "title": "Cataloguing a large disc collection",
+  "product": "Example app",
+  "persona": {"id": "barcode-blitz-cataloger", "name": "Marcus", "status": "hypothesis"},
+  "scenario": "Marcus has a few hundred discs and wants them in a searchable list by Sunday night.",
+  "goal": "Catalogue everything with the least typing",
+  "scope": "current state (illustrative sample)",
+  "stages": [
+    {"name": "Decide to start", "actions": ["Searches for a way to list his discs", "Compares apps and spreadsheets"], "thoughts": ["Typing every title would take forever"], "emotion": 1, "emotion_note": "Hopeful; wants a faster way", "touchpoints": ["Search results", "App store listing"], "pain_points": [{"text": "Pricing and export terms unclear before install", "severity": "med"}], "opportunities": ["State pricing and export plainly on the first screen"], "evidence": ["sample"], "confidence": "reported"},
+    {"name": "Set up", "actions": ["Creates an account", "Looks for import or scan"], "thoughts": ["Where is the scan button?"], "emotion": 0, "emotion_note": "Neutral until the first task", "touchpoints": ["Sign-up", "Home"], "pain_points": [{"text": "Scan is an unlabeled icon", "severity": "med"}], "opportunities": ["Label the scan action"], "evidence": ["sample"], "confidence": "inferred"},
+    {"name": "Add the first 20 discs", "actions": ["Scans a code", "Confirms the match", "Repeats"], "thoughts": ["Why does it close after every code?"], "emotion": -2, "emotion_note": "Repeated steps per disc", "touchpoints": ["Scanner", "Confirm dialog"], "pain_points": [{"text": "Scanner closes after each item", "severity": "high"}], "opportunities": ["Keep the scanner open and queue results for review"], "evidence": ["sample"], "confidence": "observed"},
+    {"name": "Fix the misses", "actions": ["Finds unmatched discs", "Types titles by hand"], "thoughts": ["Some just aren't found"], "emotion": -1, "emotion_note": "Annoyed but willing", "touchpoints": ["Unmatched list"], "pain_points": [{"text": "No quick manual entry for unmatched codes", "severity": "med"}], "opportunities": ["Offer manual entry with the scanned code prefilled"], "evidence": ["sample"], "confidence": "reported"},
+    {"name": "Trust and keep it", "actions": ["Exports a copy", "Checks it opens in a spreadsheet"], "thoughts": ["I need to own my data"], "emotion": 1, "emotion_note": "Relieved if export works", "touchpoints": ["Export"], "pain_points": [], "opportunities": ["Make export one tap and show what is included"], "evidence": ["sample"], "confidence": "reported"}
+  ],
+  "moments_of_truth": ["Stage 3: after the first few discs he decides whether the tool will finish the job"],
+  "not_validated": ["Everything: this sample is illustrative and uses no real research"],
+  "next_research": "Five task sessions with people who own 200+ discs"
+}

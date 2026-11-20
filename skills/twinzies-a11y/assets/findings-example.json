@@ -1,0 +1,5 @@
+{"product":"Example","scope":"Home page, sample","standard":"WCAG 2.2 AA","summary":"Illustrative sample only.",
+ "methods_run":["Static scan of markup and CSS","Contrast calculation on CSS color pairs"],
+ "not_run":["Screen reader testing","Keyboard walkthrough in a browser","Zoom and reflow checks","User testing with disabled people"],
+ "what_works":["Body text contrast passes"],
+ "findings":[{"id":"A1","sc":"4.1.2","level":"A","severity":"major","title":"Clickable element is not keyboard accessible","detail":"A div with onclick cannot be reached by keyboard.","fix":"Use a button element.","confidence":"observed","method":"static scan","twin":"keyboard-only","where":"Header camera icon"}]}

@@ -1,0 +1,122 @@
+[
+ {
+  "level": "1 \u00b7 Set up",
+  "scope": "broad",
+  "title": "Find or create my library",
+  "when": "First time, or at the start of any new session",
+  "prompt": "Use Twinzies. Find or create my twin library. Tell me where it lives, how many twins, studies, insights and open solutions it holds, and rebuild the dashboard.",
+  "output": "Library location, a one-line status, and a dashboard link."
+ },
+ {
+  "level": "2 \u00b7 Landscape",
+  "scope": "broad",
+  "title": "Plan the twin set for a new product",
+  "when": "Starting a new app or site, before gathering anything",
+  "prompt": "Use Twinzies. I'm starting a new [product type] for [audience and what they're trying to do]. Check my library for twins that already fit and show me a reuse / adapt / new plan, one line of reasoning each, plus the needs no twin covers yet. Don't build anything yet.",
+  "output": "A table of reused, adapted and new twins and the gaps, so you decide how many twins you maintain."
+ },
+ {
+  "level": "3 \u00b7 Audience",
+  "scope": "broad \u2192 mid",
+  "title": "Build the missing twins",
+  "when": "After you approve the plan",
+  "prompt": "Use Twinzies to build the missing twins from the plan. Gather evidence from public sources and from the first-party material I'm attaching [feedback exports, support emails, interview notes]. Aim for [N] twins in total for this product. Show me the set, with options for splitting or merging, before saving.",
+  "output": "New twins saved as hypotheses (v0.1) with an evidence log; unreachable sources listed."
+ },
+ {
+  "level": "4 \u00b7 Jobs & journeys",
+  "scope": "mid",
+  "title": "Map journeys for each twin",
+  "when": "You want to know where each audience stalls before you test anything",
+  "prompt": "Use Twinzies. Map the end-to-end journey for [the job, e.g. 'getting 40 new items into my library'] for each of [twins]: steps, what they expect, their vocabulary, and where they are most likely to stall. Mark each point evidenced, inferred or speculative.",
+  "output": "Journey table per twin, with the riskiest moments ranked."
+ },
+ {
+  "level": "5 \u00b7 Evaluation",
+  "scope": "mid \u2192 specific",
+  "title": "Evaluate a product across all five lenses",
+  "when": "You have a URL, repo, Figma file or screenshots",
+  "prompt": "Use Twinzies. Evaluate [URL / repo path / Figma link / screenshots] with [twins, or 'all relevant twins']. Cover functionality, language and content, visual design, UI and hierarchy, and accessibility against WCAG 2.2. Treat the repo as read-only and keep secrets and real data out of any copy. Give me insights mapped to their evidence, then proposed solutions grouped by how many insights feed them.",
+  "output": "findings.json, an HTML report, insights and solutions added to the library, dashboard rebuilt."
+ },
+ {
+  "level": "6 \u00b7 Flow",
+  "scope": "specific",
+  "title": "Walk one twin through one flow",
+  "when": "A single flow is under suspicion: onboarding, checkout, search, import",
+  "prompt": "Use Twinzies. Walk [twin] through [flow] in [product], step by step: what they expect, what they try first, where they hesitate, and which words they don't understand. Give me the three highest-impact changes, with two or three options for any design change.",
+  "output": "Step-by-step narration and three prioritized changes."
+ },
+ {
+  "level": "7 \u00b7 Component",
+  "scope": "most specific",
+  "title": "Review one screen, component or piece of copy",
+  "when": "You're about to ship or rewrite something small",
+  "prompt": "Use Twinzies. Review [screen / component / copy] for [twins]: hierarchy, labels, empty, error and loading states, and keyboard and screen-reader behavior. Offer two or three options for any change, written in the product's own voice.",
+  "output": "Specific issues and rewrite options, with WCAG references."
+ },
+ {
+  "level": "8 \u00b7 Comparison",
+  "scope": "specific",
+  "title": "Compare two versions",
+  "when": "You have two designs or two copy options",
+  "prompt": "Use Twinzies. Compare [version A] and [version B] of [screen or flow] through [twins]. For [task], which would each twin prefer and why? Where do they disagree, and what would settle it?",
+  "output": "Per-twin preference, tensions, and the real-user check that would settle it."
+ },
+ {
+  "level": "9 \u00b7 Validation plan",
+  "scope": "specific",
+  "title": "Turn predictions into a research plan",
+  "when": "After an evaluation, before recruiting real people",
+  "prompt": "Use Twinzies. Turn the top predictions from [study] into a validation plan for [product]. Offer me method options, then write a twin-match screener, task scenarios, in-product prompts with triggers, and a think-aloud script in [product]'s tone. State where and when each one is deployed.",
+  "output": "A ready-to-deploy kit for the method you choose."
+ },
+ {
+  "level": "10 \u00b7 Log results",
+  "scope": "specific",
+  "title": "Log a study and map insights",
+  "when": "You have sessions, survey answers or feedback to record",
+  "prompt": "Use Twinzies. Log this study. Method and dates: [..]. Participants: [pseudonymous IDs, matched twin, recruiting source, no names or emails]. Results: [notes, transcripts or responses]. Confirm or contradict each prediction, list surprises, add insights with their evidence, and propose solutions. Update the dashboard.",
+  "output": "Study record with participants, validated predictions, insights linked to evidence and solutions."
+ },
+ {
+  "level": "11 \u00b7 Decide",
+  "scope": "decision",
+  "title": "Review and decide on solutions",
+  "when": "Insights and proposed solutions are waiting",
+  "prompt": "Use Twinzies. Show me the proposed solutions for [product], most-supported first. For each, let me choose Do it, Dismiss or Backlog, one at a time, and record my choice and a note.",
+  "output": "Each solution marked accepted, dismissed or backlog, with the date, then the dashboard rebuilt."
+ },
+ {
+  "level": "12 \u00b7 Improve twins",
+  "scope": "decision",
+  "title": "Update twins from what we learned",
+  "when": "After any study",
+  "prompt": "Use Twinzies. Propose revisions to the twins from [study]: what changes, the new version and status, and the evidence behind each. Don't apply anything until I approve.",
+  "output": "Proposed changes per twin; on approval, version bumps and changelog entries."
+ },
+ {
+  "level": "13 \u00b7 Maintenance",
+  "scope": "ongoing",
+  "title": "Audit the library",
+  "when": "Monthly",
+  "prompt": "Use Twinzies. Audit my library: stale evidence, near-duplicate twins, twins never validated with real users, and solutions that have been proposed or backlogged for more than 30 days. Recommend what to refresh, merge or retire.",
+  "output": "A short audit with recommended actions."
+ },
+ {
+  "level": 14,
+  "scope": "specific",
+  "title": "Misuse: stress the product with careless and malicious twins",
+  "when": "Before launch, after adding accounts, payments, uploads, messaging or public content.",
+  "prompt": "Use Twinzies, misuse mode. I own [product] and want to harden it. Match or add misuse twins for [accounts / forms / payments / uploads / messaging / public content]. Walk them through [flow or codebase] and list abuse cases: what they try, where, what the product does (observed vs inferred), harm, likelihood, impact and a mitigation that doesn't hurt honest users. No exploits or payloads; local or dev copy only.",
+  "output": "Abuse-case report, honest-user fixes separated from security work, and solutions ready for do / backlog / dismiss."
+ },
+ {
+  "level": 15,
+  "scope": "specific",
+  "title": "Misuse: protect the vulnerable user",
+  "when": "For features with messaging, sharing or money.",
+  "prompt": "Use Twinzies. For [feature], pair each misuse twin with the user it could hurt. Walk the vulnerable user's path for reporting, blocking and getting help, and rate how fast and calm it is. Suggest changes to defaults, copy and flows.",
+  "output": "Target-first review with report/block/help flow findings."
+ }
+]

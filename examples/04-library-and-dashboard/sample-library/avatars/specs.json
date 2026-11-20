@@ -1,0 +1,8 @@
+{
+ "barcode-blitz-cataloger": {"label":"Marcus, profile facing right, short hair","pose":"profile","hair":"crop","bg":1,"palette":["sand","terracotta","sage"]},
+ "edition-and-spine-completionist": {"label":"Priya, three-quarter view, long hair","pose":"three_quarter","hair":"long","bg":2,"palette":["lavender","blush","slate"]},
+ "pressing-obsessed-vinyl-digger": {"label":"Dale, head tilted down, close-cropped hair","pose":"down","hair":"crop","bg":3,"palette":["mustard","sage","sand"]},
+ "regional-variant-game-hunter": {"label":"Kenji, profile facing left, fringe","pose":"profile","hair":"fringe","flip":true,"bg":4,"palette":["slate","blush","plum"]},
+ "rip-and-shelf-homelabber": {"label":"Rosa, front view, natural curls","pose":"front","hair":"curls","bg":5,"palette":["terracotta","sand","slate"]},
+ "low-vision-downsizing-collector": {"label":"Walt, three-quarter view facing left, thinning hair, older","pose":"three_quarter","hair":"wisp","flip":true,"age":"older","bg":6,"palette":["sage","sand","blush"]}
+}
