@@ -32,4 +32,4 @@ A collection of Claude skills. Each skill is a self-contained folder with a `SKI
 ## Notes
 
 - `twinzies-a11y` and `twinzies-journeys` can log into the same insight trail as `twinzies`, so keep them together.
-- No license is set yet. Add a `LICENSE` file before making the repo public.
+- Licensed under the MIT License (see `LICENSE`).
