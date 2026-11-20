@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env*
+node_modules/
+*.zip
+*.skill
+# Twinzies working data (generated per project, not part of the skills)
+twinzies-library/
